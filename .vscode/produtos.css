@@ -1,0 +1,79 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+.voltarHome{
+    width: 100%;
+    background-color: #8e6a6a;
+    font-family: 'Inknut Antiqua', sans-serif;
+    font-weight: bold;
+}
+.voltarHome a{
+    text-decoration: none;
+    color: black;
+}
+.cursos  {
+    
+    width: 100%;
+    height: auto;
+    font-size: 16px;
+    background-color: #532E2E;
+    color: white;
+    text-align: center;
+
+}
+.cursos h1 {
+    padding-bottom: 3%;
+    padding-top: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inknut Antiqua', sans-serif;
+
+}
+.logo {
+   
+    position: absolute;
+    margin-left: 18px;
+    
+
+}
+.logo img {
+    width: 103%;
+    padding: 18px;
+   
+}
+.imagensCursos{
+    background-color: #E29632;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+    padding-top: 3%;
+    padding-bottom: 2rem;
+  
+}
+
+.imagensCursos button {
+ display: block;
+ margin: auto;
+ margin-top: 10px;
+ background-color: #E5DCCC;
+ border-radius: 18px;
+ width: 25%;
+ 
+}
+.imagensCursos > div {
+    text-align: center;
+    
+}
+.imagensCursos button a {
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    font-family:'Inknut Antiqua', sans-serif;
+    font-weight: bold;
+    padding: 6px;
+    
+}
+    

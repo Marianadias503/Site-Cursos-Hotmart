@@ -1,0 +1,250 @@
+body {
+   padding: 0;
+   margin: 0;
+}
+
+.header {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   background-color: #532E2E;
+}
+
+.textos {
+   gap: 50px;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   justify-items: center;
+   align-items: center;
+}
+
+.header img {
+   padding-left: 50px;
+   width: 18%;
+}
+
+.header a {
+   width: 100%;
+   color: #FFFFFF;
+   font-family: 'Inknut Antiqua', sans-serif;
+   text-decoration: none;
+}
+
+.main {
+   width: 100%;
+}
+
+.principal {
+   position: relative;
+   width: 100%;
+}
+
+.principal img {
+   display: block;
+   width: 100%;
+   height: auto;
+}
+
+.texto {
+   position: absolute;
+   top: 30%;
+   left: 30%;
+   transform: translate(-50%, -50%);
+   text-align: center;
+   color: white;
+}
+
+.texto p {
+   margin: 0;
+   font-size: 3vw; /* Ajustado para ser responsivo */
+   font-weight: bold;
+   font-family: 'Inknut Antiqua', sans-serif;
+   line-height: 1.3;
+   max-width: 100%; /* Ajustado para não ultrapassar a largura da tela */
+}
+
+.imagem {
+   width: 22%;
+   position: absolute;
+   top: 29%;
+   left: 75%;
+   transform: translate(-50%, -50%);
+   text-align: center;
+   color: white;
+   max-width: 100%; /* Ajustado para não ultrapassar a largura da tela */
+}
+
+.frase {
+ 
+   background-color: #E29632;
+   display: grid;
+   justify-content: center;
+   align-items: center;
+ 
+}
+
+.frase h1 {
+   font-size: 24px;
+   width: 100%;
+   margin-top: 0px;
+   margin-bottom: 2rem;
+   justify-content: center;
+   align-items: center;
+   font-family: 'Inknut Antiqua', sans-serif;
+   font-weight: bold;
+}
+
+.Destaque {
+   display: flex;
+   margin-left: 25%;
+}
+
+.foto {
+ 
+   justify-content: center;
+   align-items: center;
+   justify-content: space-around;
+   display: flex;
+}
+
+.buttons{
+ 
+   justify-content: center;
+   align-items: center;
+   margin-bottom: 2rem;
+   justify-content: space-around;
+   display: flex;
+    width: 100%;
+   
+ 
+}
+
+.buttons button{
+   margin-top: 1rem;
+   border-radius: 18px;
+   background-color: #E5DCCC;
+}
+
+.buttons a {  
+   list-style: none;
+   text-decoration: none;
+   color: black;
+   font-weight: bold;
+   font-size: 19px;
+
+}
+
+ 
+
+.Ver-outros a {
+   color: black;
+   font-weight: bold;
+   font-size: 30px;
+   justify-content: center;
+   align-items: center;
+   display: flex;
+   text-decoration: none;
+   padding-bottom: 1rem;
+}
+
+.descricao{
+   display: grid;
+   place-items: center;
+   height: auto;
+   justify-content: center;
+   align-items: center;
+   background-image: url(./Background.png);
+   background-repeat: no-repeat;
+   background-size: 100%;
+   font-size: 19px;
+   margin-top: 0%;
+   font-family: 'Inknut Antiqua', sans-serif;
+   font-weight: bold;
+   font-size: 30px;
+   width: 94.2%;
+   padding: 10px;
+ 
+   padding-left: 6rem;
+}
+
+.apresentacao {
+   font-family: 'Inknut Antiqua', sans-serif;
+   font-weight: bold;
+   font-size: 45px;
+   margin-top: 15px;
+
+
+}
+
+.Produtos{
+
+   margin-top: 0%;
+   background-color: #E29632;
+ 
+}
+.Produtos h1{
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 2rem;
+   width: 100%;
+   margin-top: 0px;
+   padding-top: 2rem;
+   margin-bottom: 4rem;
+   justify-content: center;
+   align-items: center;
+   font-family: 'Inknut Antiqua', sans-serif;
+   font-weight: bold;
+}
+.fotos{
+ 
+justify-content: center;
+align-items: center;
+justify-content: space-around;
+display: flex;
+ 
+}
+
+
+
+.buttoms{
+ 
+   justify-content: center;
+align-items: center;
+justify-content: space-around;
+display: flex;
+width: 100%;
+margin-top: 1rem;
+padding-bottom: 1rem;
+margin-bottom: 2rem;
+
+
+}
+.buttoms button{
+   width: 5%;
+   margin-top: 10px;
+   border-radius: 18px;
+   background-color: #E5DCCC;
+   cursor: pointer;
+   
+}
+.buttoms button a{
+   list-style: none;
+   text-decoration: none;
+   color: black;
+   font-weight: bold;
+   font-size: 19px;
+
+ 
+}
+.outrosProdutos{
+   cursor: pointer;
+   color: black;
+   font-weight: bold;
+   font-size: 30px;
+   justify-content: center;
+   align-items: center;
+   display: flex;
+   text-decoration: none;
+   padding-bottom: 1rem;
+}
