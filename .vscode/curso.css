@@ -77,3 +77,82 @@
     
 }
     
+
+@media (max-width: 768px) {
+
+   
+    .cursos  {
+       
+        width: 100%;
+        height: auto;
+        font-size: 16px;
+        background-color: #532E2E;
+        color: white;
+        text-align: center;
+    
+    }
+    .cursos h1 {
+        font-size: 1rem;
+        padding-bottom: 3%;
+        padding-top: 5%;
+        margin-left: 5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Inknut Antiqua', sans-serif;
+    
+    }
+    .logo {
+     
+        position: absolute;
+        height: 70px;
+
+        
+    
+    }
+    .logo img {
+        width: 100%;
+        height: 70px;
+        padding: 0;
+        
+
+       
+    }
+    .imagensCursos{ 
+        background-color: #E29632;
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        gap: 40px;
+        padding-top: 3%;
+        padding-bottom: 2rem;
+      
+    }
+    .imagensCursos img{
+        width: 80%;
+    }
+    
+    .imagensCursos button {
+     display: block;
+     margin: auto;
+     margin-top: 10px;
+     background-color: #E5DCCC;
+     border-radius: 18px;
+     width: 60%;
+     
+    }
+    .imagensCursos > div {
+        text-align: center;
+        
+    }
+    .imagensCursos button a {
+        text-decoration: none;
+        list-style: none;
+        color: black;
+        font-family:'Inknut Antiqua', sans-serif;
+        font-weight: bold;
+       
+      
+    }
+        
+
+}
